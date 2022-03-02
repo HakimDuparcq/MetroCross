@@ -79,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Animator.SetBool("Fall", true);
             StartCoroutine(WaitToDisabled(1.9f));
-            Debug.Log(other.name);
+            //Debug.Log(other.name);
         }
 
         if (other.name== "Springboards(Clone)")
